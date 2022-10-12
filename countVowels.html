@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function countVowels(string1)
+        {
+            var iCnt =0;
+    
+            for(let i=0; i < string1.length; i++)
+            {
+                if((string1[i]=='a') || (string1[i]=='e') || (string1[i]=='i') || (string1[i]=='o') || (string1[i]=='u') )
+                {
+                    iCnt++
+                }
+            }
+            console.log("Number of vowels are : "+iCnt);
+        }
+
+        countVowels('aeiou');
+    </script>
+</body>
+</html>

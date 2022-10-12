@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var Arr = [1,2,3,4,5];
+        var iMax= Arr[0], iMin = Arr[0], iSum =0, iAvg;
+
+        for(var i =1; i < Arr.length; i++)
+        {
+            if(iMax < Arr[i])
+            {
+                iMax = Arr[i];
+            }
+        } 
+        console.log("Max number : "+iMax);
+
+        for(var i =1; i < Arr.length; i++)
+        {
+            if(iMin > Arr[i])
+            {
+                 iMin = Arr[i];
+            }
+        }
+        console.log("Min number : "+iMin);
+
+        for(var i =0; i < Arr.length; i++)
+        {
+             iSum = iSum + Arr[i];
+        }
+         console.log("Addition of elements : "+iSum);
+
+        iAvg = (iSum / Arr.length);
+
+         console.log("Average : "+iAvg);
+
+    </script>
+</body>
+</html>
