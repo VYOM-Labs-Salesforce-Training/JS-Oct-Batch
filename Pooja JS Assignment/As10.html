@@ -1,0 +1,32 @@
+<!--
+Filename: c:\Users\hp-pc\Desktop\New folder (4)\JS-Oct-Batch\Pooja JS Assignment\As10.html
+Path: c:\Users\hp-pc\Desktop\New folder (4)\JS-Oct-Batch\Pooja JS Assignment
+Created Date: Wednesday, October 12th 2022, 9:47:35 pm
+Author: Pooja Parab
+
+Copyright (c) 2022 Your Company
+
+10) Write a JavaScript code which will greet according to the current timing.
+-->
+
+
+<html>
+<head>
+    <title>Display Greetings</title>
+</head>
+<body>
+<script>
+    var hrs = new Date().getHours();
+
+    document.write("Time is " + hrs + "o' clock" + "<br>");
+    if(hrs < 4)
+        document.write("Hey, Good Night");
+    else if(hrs < 12)
+        document.write("Hello, Good Morning");
+    else if(hrs < 17)
+        document.write("Hello, Good Afternoon");
+    else 
+        document.write("Hello, Good Evening");
+</script>
+</body>
+</html>

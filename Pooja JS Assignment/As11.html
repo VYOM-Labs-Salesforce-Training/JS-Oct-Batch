@@ -1,0 +1,37 @@
+<!--
+Filename: c:\Users\hp-pc\Desktop\New folder (4)\JS-Oct-Batch\Pooja JS Assignment\As11.html
+Path: c:\Users\hp-pc\Desktop\New folder (4)\JS-Oct-Batch\Pooja JS Assignment
+Created Date: Wednesday, October 12th 2022, 9:47:35 pm
+Author: Pooja Parab
+
+Copyright (c) 2022 Your Company
+
+11) Write a JavaScript code to accept number from user. Make all validation and print that
+number in reverse order.
+-->
+<!doctype html>
+<html>
+<head>
+<script>
+function reverse()
+{
+var a,no,b,temp=0;
+
+no=Number(document.getElementById("no_input").value);
+
+b=no;
+while(no>0)
+{
+a=no%10;
+no=parseInt(no/10);
+temp=temp*10+a;
+}
+alert(temp);
+}
+</script>
+</head>
+<body>
+Enter any Number: <input id="no_input">
+<button onclick="reverse()">Check</button></br></br>
+</body>
+</html>

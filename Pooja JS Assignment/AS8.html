@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Length of a JavaScript object</title>
+</head>
+
+<body>
+	
+	
+	
+	<p>
+		exampleObject = {
+			id: 1,
+			name: 'Pooja',
+			age: 18,
+            address:'Pune'
+            
+		}
+	</p>
+	
+	<p>
+		Click on the button to get
+		the length of the object.
+	</p>
+	
+	<p>
+		Length of the object is:
+		<span class="output"></span>
+	</p>
+
+	<button onclick="getObjectLength()">
+		Get object length
+	</button>
+	
+	<script>
+		function getObjectLength() {
+			
+			// Declare an object
+			exampleObject = {
+				id: 1,
+				name: 'Pooja',
+				age: 18,
+                address:'Pune'
+			}
+
+			// Using Object.keys() method to get length
+			objectLenght = Object.keys(exampleObject).length;
+
+			document.querySelector('.output').textContent
+					= objectLenght;
+		}
+	</script>
+</body>
+
+</html>					
