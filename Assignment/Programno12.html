@@ -1,0 +1,40 @@
+<!--
+Filename: c:\Users\DELL\Downloads\Javascript Assignment (1)\Javascript Assignment\Programno12.html
+Path: c:\Users\DELL\Downloads\Javascript Assignment (1)\Javascript Assignment
+Created Date: Wednesday, October 12th 2022, 2:00:41 pm
+Author: gayatrik29
+
+Copyright (c) 2022 Your Company
+
+12) Write a JavaScript code to accept number from user. Make all validation and print that number in reverse order.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    //Initilizing variable & declaring
+let rev = 0;
+let num = prompt('Enter number');
+let lastDigit;
+
+//Using while loop
+while(num != 0){
+	lastDigit = num % 10;
+  rev = rev * 10 + lastDigit;
+  num = Math.floor(num/10);
+}
+
+//Printing result
+console.log("Reverse number : "+rev);
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,39 @@
+<!--
+Filename: c:\Users\DELL\Downloads\Javascript Assignment (1)\Javascript Assignment\Programmno10.html
+Path: c:\Users\DELL\Downloads\Javascript Assignment (1)\Javascript Assignment
+Created Date: Wednesday, October 12th 2022, 2:00:41 pm
+Author: gayatrik29
+
+Copyright (c) 2022 Your Company
+
+10) Write a JavaScript code which will greet according to the current timing.
+-->
+
+<html>  
+  
+  <body>  
+    <script>  
+    var welcome;  
+    var date = new Date();  
+    var hour = date.getHours();  
+    var minute = date.getMinutes();  
+    var second = date.getSeconds();  
+    if (minute < 10) {  
+      minute = "0" + minute;  
+    }  
+    if (second < 10) {  
+      second = "0" + second;  
+    }  
+    if (hour < 12) {  
+      welcome = "Good morning";  
+    } else if (hour < 17) {  
+      welcome = "Good afternoon";  
+    } else {  
+      welcome = "Good evening";  
+    }  
+    document.write("<h2>" + "<font color='red'>" + welcome + "</font>" + ", Welcome");  
+    document.write("<br>" + hour + ":" + minute + ":" + second);  
+    </script>  
+  </body>  
+  
+</html>
