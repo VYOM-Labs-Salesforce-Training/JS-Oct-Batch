@@ -1,0 +1,33 @@
+<!--
+Filename: c:\Users\karan\Documents\JavaScript assignment\Javascript Assignment\script10.html
+Path: c:\Users\karan\Documents\JavaScript assignment\Javascript Assignment
+Created Date: Wednesday, October 12th 2022, 2:05:16 pm
+Author: KaranBharam27
+10) Write a JavaScript code which will greet according to the current timing.
+
+Copyright (c) 2022 Vyom Labs Pvt.Ltd
+-->
+
+
+<html>  
+  
+  <body>  
+    <script>  
+      // here i used Const variable
+      function greet() {
+        const hour = new Date().getHours();
+        // if else statemet for business logic
+        if (hour > 4 && hour < 12)
+            console.log("Good Morning!");
+        else if (hour > 12 && hoour < 18)
+            console.log("Good Afternoon!");
+        else if (hour > 18 && hour < 22)
+            console.log("Good Evening!");
+        else
+            console.log("Good Night!");
+    }
+    greet();
+    </script>  
+  </body>  
+  
+</html>
