@@ -1,0 +1,58 @@
+<!--
+Filename: c:\Users\hp-pc\Desktop\New folder (4)\JS-Oct-Batch\Pooja JS Assignment\AS2.html
+Path: c:\Users\hp-pc\Desktop\New folder (4)\JS-Oct-Batch\Pooja JS Assignment
+Created Date: Wednesday, October 12th 2022, 9:47:35 pm
+Author: Pooja Parab
+
+Copyright (c) 2022 Vyom Labs
+2) Write a java script code to design basic functionality of calculator.
+-->
+
+
+<html>
+    <head>
+        <script type="text/javascript">  
+            
+            function ADD(){
+                var a = parseInt(document.getElementById("number1").value);
+                var b = parseInt(document.getElementById("number2").value);
+                
+                var c= (a+b);
+                alert("Addition is "+c);
+            }
+            function SUBTRACT(){
+                var a = parseInt(document.getElementById("number1").value);
+                var b = parseInt(document.getElementById("number2").value);
+               
+                var c= (a-b);
+                alert("Subtraction is "+c);
+            }
+            function MULTIPLY(){
+                var a = parseInt(document.getElementById("number1").value);
+                var b = parseInt(document.getElementById("number2").value);
+               
+                var c= (a*b);
+                alert("Multiplication is "+c);
+            }
+            function DIVISION(){
+                var a = parseInt(document.getElementById("number1").value);
+                var b = parseInt(document.getElementById("number2").value);
+               
+                var c= (a/b);
+                alert("Divison is "+c);
+            }
+
+
+        </script>
+    </head>
+    <body>
+        <form>
+            Enter Number 1&nbsp;&nbsp;<input type="text" id="number1"><br>
+            Enter Number 2&nbsp;&nbsp;<input type="text" id="number2"><br><br>
+            <input type="button" value="ADD" onclick="ADD()">
+            <input type="button" value="SUBTRACT" onclick="SUBTRACT()">
+            <input type="button" value="MULTIPLY" onclick="MULTIPLY()">
+            <input type="button" value="DIVISION" onclick="DIVISION()">
+        </form>
+    </body>
+</html>
