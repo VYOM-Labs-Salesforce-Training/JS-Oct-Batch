@@ -7,15 +7,15 @@
  * Copyright (c) 2022 Vyom Labs Pvt. Ltd.
  */
 
-  function factorial(n){
+  function factorial(number){
  
-    if(n == 0 || n == 1){
+    if(number == 0 || number == 1){
         return 1;
    
     }else{
-        return n * factorial(n-1);
+        return number * factorial(number-1);
     }
 }
-let n = 4;
-answer = factorial(n)
-console.log("The factorial of " + n + " is " + answer);
+let number = 5;
+answer = factorial(number)
+console.log("The factorial of " + number + " is " + answer);

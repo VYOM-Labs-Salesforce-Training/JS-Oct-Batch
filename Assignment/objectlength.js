@@ -11,6 +11,7 @@ var employee = {
     Name: 'Vrushabh Mohatkar',
     Position: 'Trainee Engineer',
     Emp_id: 'A3566',
-    Address: 'Pune'
+    Address: 'Pune',
+    Hobby: 'Sports'
 }
 console.log(Object.keys(employee).length);

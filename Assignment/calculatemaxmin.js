@@ -7,11 +7,11 @@
  * Copyright (c) 2022 Vyom Labs Pvt.Ltd.
  */
 const array = [20, 30, 40];
-var sum=array.reduce(function(a,b){
-return a+b;
+var sum=array.reduce(function(value1,value2){
+return value1+value2;
 },0);
-var avg=sum/array.length;
+var average=sum/array.length;
 console.log('Maximum Number :' +Math.max(...array));
 console.log('Minimum Number :' +Math.min(...array));
 console.log('Sum of Numbers :' +sum);
-console.log('Average of Numbers :'+avg);
+console.log('Average of Numbers :'+average);

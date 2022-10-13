@@ -10,31 +10,31 @@
 function Arrays_sum(array1, array2) 
 {
   var result = [];
-  var ctr = 0;
-  var x=0;
+  var integer2 = 0;
+  var integer1=0;
 
   if (array1.length === 0) 
    return "array1 is empty";
   if (array2.length === 0) 
    return "array2 is empty";   
 
- while (ctr < array1.length && ctr < array2.length) 
+ while (integer2 < array1.length && integer2 < array2.length) 
   {
-    result.push(array1[ctr] + array2[ctr]);
-    ctr++;
+    result.push(array1[integer2] + array2[integer2]);
+    integer2++;
   }
 
- if (ctr === array1.length) 
+ if (integer2 === array1.length) 
  {
-    for (x = ctr; x < array2.length; x++)   {
-      result.push(array2[x]);
+    for (integer1 = integer2; integer1 < array2.length; integer1++)   {
+      result.push(array2[integer1]);
     }
   } 
   else
   {
-  for (x = ctr; x < array1.length; x++) 
+  for (integer1 = integer2; integer1 < array1.length; integer1++) 
     {
-      result.push(array1[x]);
+      result.push(array1[integer1]);
     }
   }
   return result;
