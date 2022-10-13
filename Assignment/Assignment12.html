@@ -1,0 +1,44 @@
+<!--
+Filename: c:\Users\panch\VSCode\Assignment\JS-Oct-Batch\Assignment\Assignment12.html
+Path: c:\Users\panch\VSCode\Assignment\JS-Oct-Batch\Assignment
+Created Date: Thursday, October 13th 2022, 10:05:09 am
+Author: Ravipanchal22
+Question: this program will reverse the order of the Number which is given in input
+
+Copyright (c) 2022 vyom labs
+-->
+
+<!doctype html>
+<html>
+
+<head>
+    <script>
+        function reverseInput() {
+            let a, inputValue, b, temp = 0;
+            let number
+            let outputValue
+            // getting value of input by ID
+            inputValue = Number(document.getElementById("input").value);
+            outputValue = document.getElementById("output");
+
+            b = inputValue;
+            while (inputValue > 0) {
+                a = inputValue % 10;
+                inputValue = parseInt(inputValue / 10);
+                temp = temp * 10 + a;
+            }
+            // setting value of input in reverse order 
+            outputValue.textContent = temp
+        }
+    </script>
+</head>
+<!-- Html file of the program -->
+
+<body>
+    Enter any Number: <input id="input">
+    <button onclick="reverseInput()">Check</button></br><br>
+    <span>Output: </span>
+    <span id="output"></span>
+</body>
+
+</html>
