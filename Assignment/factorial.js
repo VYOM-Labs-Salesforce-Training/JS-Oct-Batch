@@ -3,8 +3,8 @@
  * Path: c:\Users\Vrushabh Mohatkar\OneDrive\Desktop\JS-VM
  * Created Date: Tuesday, October 11th 2022, 10:59:51 pm
  * Author: Vrushabh Mohatkar
- * implement callback function for calculating factorial of a number.
- * Copyright (c) 2022 Your Company
+ * Implement callback function for calculating factorial of a number.
+ * Copyright (c) 2022 Vyom Labs Pvt. Ltd.
  */
 
   function factorial(n){

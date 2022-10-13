@@ -4,7 +4,7 @@
  * Created Date: Tuesday, October 11th 2022, 10:59:51 pm
  * Author: Vrushabh Mohatkar
  * Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case.
- * Copyright (c) 2022 Your Company
+ * Copyright (c) 2022 Vyom Labs Pvt. Ltd.
  */
 
 function uppercase(str)

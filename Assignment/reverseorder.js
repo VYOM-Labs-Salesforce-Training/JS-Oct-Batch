@@ -5,7 +5,7 @@
  * Author: Vrushabh Mohatkar
  * Write a JavaScript code to accept number from user. Make all validation and print that
    number in reverse order.
- * Copyright (c) 2022 Your Company
+ * Copyright (c) 2022 Vyom Labs Pvt. Ltd.
  */
 
 var num = ("Enter the number to be reveresed :", "123654 ");

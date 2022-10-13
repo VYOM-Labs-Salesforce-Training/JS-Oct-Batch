@@ -4,7 +4,7 @@
  * Created Date: Wednesday, October 12th 2022, 1:54:58 pm
  * Author: Vrushabh Mohatkar
  * There are two arrays with individual values, write a JavaScript program to compute the sum of each individual index value from array.
- * Copyright (c) 2022 Your Company
+ * Copyright (c) 2022 Vyom Labs Pvt. Ltd.
  */
 
 function Arrays_sum(array1, array2) 
