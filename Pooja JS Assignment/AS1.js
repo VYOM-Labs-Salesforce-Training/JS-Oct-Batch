@@ -6,6 +6,8 @@
  * 
  * Copyright (c) 2022 Vyom Labs
  * 
+ *Write a JavaScript program which compute, result of student and display grade (grades:
+distinction,first class,second class, pass class fail).
  *                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
  */    
 var maths,science,arts,english;
