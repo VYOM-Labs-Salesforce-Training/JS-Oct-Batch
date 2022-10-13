@@ -1,9 +1,18 @@
+/*
+ * Filename: c:\Users\hp-pc\Desktop\New folder (4)\JS-Oct-Batch\Pooja JS Assignment\as6.js
+ * Path: c:\Users\hp-pc\Desktop\New folder (4)\JS-Oct-Batch\Pooja JS Assignment
+ * Created Date: Wednesday, October 12th 2022, 9:47:35 pm
+ * Author: Pooja Parab
+ * 
+ * Copyright (c) 2022 Your Company
+ */
+
 function Arrays_sum(array1, array2) 
 {
   var result = [];
   var ctr = 0;
   var x=0;
-
+ 
   if (array1.length === 0) 
    return "array1 is empty";
   if (array2.length === 0) 

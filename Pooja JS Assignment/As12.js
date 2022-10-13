@@ -4,8 +4,8 @@
  * Created Date: Wednesday, October 12th 2022, 9:51:28 pm
  * Author: Pooja Parab
  * 
- * Copyright (c) 2022 Your Company
- * 
+ * Copyright (c) 2022 Vyom Labs
+ *  
  * 11) Write a JavaScript code for calculating bills. If quantity is less than 5 then there is any discount,
 If quantity is greater than 5 and less than 25 then discount is 5%, If quantity is greater than 25 and
 less than 50 then discount is 15%, If quantity is greater than 50 discount is 20%.

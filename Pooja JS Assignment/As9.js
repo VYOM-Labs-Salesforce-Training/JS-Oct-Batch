@@ -4,12 +4,12 @@
  * Created Date: Wednesday, October 12th 2022, 9:54:01 pm
  * Author: Pooja Parab
  * 
- * Copyright (c) 2022 Your Company
+ * Copyright (c) 2022 Vyom Labs
  * 
  * 9) Write a JavaScript code for counting odd, even, prime numbers from 1 to100.
  * 
  */
-
+ 
 
 var a= 5 ;
 if(a % 2 == 0)

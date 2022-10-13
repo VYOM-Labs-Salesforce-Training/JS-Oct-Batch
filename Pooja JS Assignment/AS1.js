@@ -1,13 +1,24 @@
-var s1,s2,s3,s4;
+/*
+ * Filename: c:\Users\hp-pc\Desktop\New folder (4)\JS-Oct-Batch\Pooja JS Assignment\AS1.js
+ * Path: c:\Users\hp-pc\Desktop\New folder (4)\JS-Oct-Batch\Pooja JS Assignment
+ * Created Date: Wednesday, October 12th 2022, 9:47:35 pm
+ * Author: Pooja Parab
+ * 
+ * Copyright (c) 2022 Vyom Labs
+ * 
+ *                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+ */    
+var maths,science,arts,english;
 var total;
-s1=70;
-s2=80;
-s3=80;
-s4=50;
-total=(s1+s2)+(s3+s4);
+maths=70;
+science=80;
+arts=80;
+english=50;
+total=(maths+science)+(arts+english);//total of subject
 var per = (total / 400)*100;
 console.log('Your Percentage is '+per);
-if(per>=70){
+if(per>=70)//checking percentage condition
+{
     console.log('You have passed with first class distinction');
 }
 else if((per<=69) && (per>=60)){
