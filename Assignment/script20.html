@@ -1,0 +1,27 @@
+<!--
+Filename: c:\Users\karan\Documents\JavaScript assignment\Javascript Assignment\script20.html
+Path: c:\Users\karan\Documents\JavaScript assignment\Javascript Assignment
+Created Date: Wednesday, October 12th 2022, 11:42:50 pm
+Author: KaranBharam27
+write a java script program accept string from user and display count of vowels characters from the string.
+ Copyright (c) 2022 Vyom Labs Pvt.Ltd.
+-->
+
+
+<html>
+<body>
+<script>
+   function noOfVowels(string) {
+      var listOfVowels = 'aAeEiIoOuU';
+      var vowelsCount = 0;
+      for(var i = 0; i < string.length ; i++) {
+         if (listOfVowels.indexOf(string[i]) !== -1) {
+            vowelsCount += 1;
+        }
+      }
+   return vowelsCount;
+   }
+   document.write(noOfVowels("Tutorix is one of the best e-platforms"));
+</script>
+</body>
+</html>
