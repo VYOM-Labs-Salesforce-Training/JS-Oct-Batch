@@ -1,0 +1,39 @@
+<!--
+Filename: c:\Users\panch\VSCode\Assignment\JS-Oct-Batch\Assignment\Assignment19.html
+Path: c:\Users\panch\VSCode\Assignment\JS-Oct-Batch\Assignment
+Created Date: Thursday, October 13th 2022, 2:37:27 pm
+Author: Ravipanchal22
+Question: write a program to calculate factorial
+
+Copyright (c) 2022 Your Company
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body style="text-align: center; font-size: 20px;">
+    <br>
+    Enter Number: <input id="number">
+    <br><br>
+    <button onclick="factorial()"> Calculate Factorial </button>
+    <p id="res"></p>
+
+    <!-- here is the js code that calculate the factorial  -->
+    <script>
+        function factorial() {
+            var integer, number, integer2;
+            integer2 = 1;
+            number = document.getElementById("number").value;
+            for (integer = 1; integer <= number; integer++) {
+                integer2 = integer2 * integer;
+            }
+            integer = integer - 1;
+            document.getElementById("res").textContent = `The Factorial value of this number ${integer} is ${integer2}`;
+        }
+    </script>
+
+</body>
+
+</html>
