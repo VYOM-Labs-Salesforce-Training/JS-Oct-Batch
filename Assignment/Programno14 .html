@@ -1,0 +1,69 @@
+<!--
+Filename: c:\Users\DELL\Downloads\Javascript Assignment (1)\Javascript Assignment\Programno14 (1).html
+Path: c:\Users\DELL\Downloads\Javascript Assignment (1)\Javascript Assignment
+Created Date: Wednesday, October 12th 2022, 2:00:41 pm
+Author: gayatrik29
+
+Copyright (c) 2022 Your Company
+
+14) Write a menu driven program to perform the following options using JavaScript:
+	1. To find Armstrong numbers between 1 to 1000.
+    2. To print sum of the digit of a number.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var i,j,r,ch;
+    var n;
+    var sum=0;
+    
+    ch=parseInt(prompt("Enter 1 for Armstrong number and 2 for sum of digits"));
+    switch(ch)
+    
+    {
+    
+    case 1:
+    document.write("Armstrong Number :-");
+    for(i=1;i<=1000;i++)
+    {
+    j=i;
+    sum=0;
+    while(j>0)
+    {
+    r=j%10;
+    sum=sum+(r*r*r);
+    j=parseInt(j/10);
+    }
+    if( sum==i)
+    {
+    document.write(sum+" ,");
+    }
+    }
+    break;
+    case 2:
+    n=parseInt(prompt("Enter any number for finding sum of digits"));
+    while(n>0)
+    {
+    sum=sum+n%10;
+    n=parseInt(n/10);
+    }
+    document.write("<br>"+"Sum of digits= "+sum);
+    break;
+    default :
+    alert("Wrong choice");
+    }
+    
+    
+    </script>
+</body>
+</html>
+    
