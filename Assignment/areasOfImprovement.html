@@ -1,0 +1,48 @@
+<!--
+Filename: c:\Users\panch\VSCode\Assignment\JS-Oct-Batch\Assignment\Test.html
+Path: c:\Users\panch\VSCode\Assignment\JS-Oct-Batch\Assignment
+Created Date: Saturday, October 15th 2022, 12:39:58 am
+Author: Ravipanchal22
+Question: Fibonacci Series (Areas of improvement)
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Evalution</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body style="text-align:center;">
+
+    <span> Fibonacci Series: </span>
+    <span id="output"></span>
+
+    <script>
+        var output = document.getElementById("output")
+        var fibonacci = function (number) {
+            var answer = []
+            var number1 = 0, number2 = 1, number3
+            answer.push(number1)
+            answer.push(number2)
+            var i = 2
+            while (i < number) {
+                number3 = number1 + number2
+                number1 = number2
+                number2 = number3
+                answer.push(number3)
+                i += 1
+            }
+            return answer
+        }
+        var number = 8
+        output.textContent = fibonacci(number)
+        //console.log(fibonacci(8));
+    </script>
+</body>
+
+</html>
