@@ -5,17 +5,18 @@
  * Author: Vrushabh Mohatkar
  * Write a JavaScript code to accept number from user. Make all validation and print that
    number in reverse order.
- * Copyright (c) 2022 Your Company
+ * Copyright (c) 2022 Vyom Labs Pvt. Ltd.
  */
 
-var num = ("Enter the number to be reveresed :", "123654 ");
-var n= num;
-var rev = 0, rem;
-while (n>0)
+var number1 = ("Enter the number to be reveresed :", "123654 ");
+var number2= number1;
+var reversenumber = 0, rem;
+while (number2>0)
 {
-rem = n % 10;
-rev = rev * 10 + rem ;
-n = Math.floor(n/10);
+rem = number2 % 10;
+reversenumber = reversenumber * 10 + rem ;
+number2 = Math.floor(number2/10);
 }
-console.log("The given number is : " +num+ "The reversed number is : " +rev+ "\n");
+console.log(`The given number is : ${number1} 
+The reversed number is : ${reversenumber}`);
   

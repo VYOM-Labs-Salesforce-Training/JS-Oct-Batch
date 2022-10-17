@@ -4,13 +4,14 @@
  * Created Date: Tuesday, October 11th 2022, 9:56:11 pm
  * Author: Vrushabh Mohatkar
  * Write a JavaScript program to get the length of a JavaScript object.
- * Copyright (c) 2022 Your Company
- */
+ * Copyright (c) 2022 Vyom Labs Pvt. Ltd. 
+ * */
 
 var employee = {
     Name: 'Vrushabh Mohatkar',
     Position: 'Trainee Engineer',
     Emp_id: 'A3566',
-    Address: 'Pune'
+    Address: 'Pune',
+    Hobby: 'Sports'
 }
 console.log(Object.keys(employee).length);

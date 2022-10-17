@@ -1,0 +1,53 @@
+<!--
+Filename: c:\Users\Vrushabh Mohatkar\OneDrive\Documents\GitHub\JS-Oct-Batch\Assignment\employeeinfo.html
+Path: c:\Users\Vrushabh Mohatkar\OneDrive\Documents\GitHub\JS-Oct-Batch\Assignment
+Created Date: Thursday, October 13th 2022, 3:55:32 pm
+Author: vrushabhmohatkar123
+create a screen for accepting Employee information.
+Apply validations for the form using java script.
+Copyright (c) 2022 Vyom Labs Pvt. Ltd.
+-->
+
+<html>
+<head>
+<script type="text/javascript" src="employeeinfo.js"></script>
+</head> 
+<body>
+<form action="#" name="StudentRegistration" onSubmit="return(validate());" width="20%" style="border:black;border-style:outset; margin-left:450px; margin-right:450px;">
+<table cellpadding="3" width="10%" bgcolor="white" align="center" cellspacing="1">
+<tr>   
+<td colspan=2>
+<center><b>Personal Information</b></font></center> 
+</td>      
+</tr> 
+<tr>
+    <td style="white-space: nowrap;">First Name</td>
+    <td><input type=text name=firstname id="firstname" size="30"></td>
+</tr>  
+<tr>
+    <td>Last Name</td><td><input type="text" name="lastname" id="lastname" size="30"></td>
+</tr>
+<tr>
+    <td>Address</td><td><input type="text" name="paddress" id="paddress" size="30"></td>
+</tr>
+<tr>
+    <td>Mobile No</td><td><input type="text" name="mobileno" id="mobileno" size="30"></td>
+</tr>
+<tr>
+    <td>Gender</td>
+    <td><input type="radio" name="sex" value="male" size="20">Male<input type="radio" 
+    name="sex" value="Female" size="20">Female</td>
+</tr>
+<tr>
+    <td>Your Interests<td><input type="checkbox" name="interests">Computer 
+<input type="checkbox" name="sports">Sports
+<input type="checkbox" name="music">Music</td></td> 
+ </tr>
+ <tr>     
+<td colspan="10"><input type="submit" value="Submit" /></td>
+<td><input type="reset"></td>
+</tr>
+</table>  
+</form>
+</body> 
+</html>
