@@ -1,0 +1,35 @@
+<!--
+Filename: c:\Users\DELL\Downloads\js ass\Same_last_digit.html
+Path: c:\Users\DELL\Downloads\js ass
+Created Date: Thursday, December 1st 2022, 4:03:57 pm
+Author: gayatrik29
+4. JavaScript Program to Check if the Numbers Have Same Last
+Digit
+Copyright (c) 2022 Your Company
+-->
+
+<html>
+<head>
+</head>
+<body>
+<script>
+// take input
+const a = prompt('Enter a first integer: ');
+const b = prompt('Enter a second integer: ');
+const c = prompt('Enter a third integer: ');
+
+// find the last digit
+const result1 = a % 10;
+const result2 = b % 10;
+const result3 = c % 10;
+
+// compare the last digits
+if(result1 == result2 && result1 == result3) {
+    console.log(`${a}, ${b} and ${c} have the same last digit.`);
+}
+else {
+    console.log(`${a}, ${b} and ${c} have different last digit.`);
+}
+</script>
+</body>
+</html>
